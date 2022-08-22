@@ -1,0 +1,126 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(
+    to right,
+    #ffffff,
+    #cffcf1,
+    #cffcf1,
+    #defafe
+  );
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  padding-top: 40px;
+  text-align: center;
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.container-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  background-position: center;
+  width: 600px;
+  height: 450px;
+}
+.container-2 {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
+.container-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timer {
+  color: #00d9f5;
+  font-family: 'Roboto';
+}
+.timer-status {
+  color: #0f172a;
+  font-family: 'Roboto';
+}
+.timer-controller-container {
+  display: flex;
+  align-items: center;
+}
+.timer-controller-btn {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  margin-right: 16px;
+  margin-left: 16px;
+  padding: 0px;
+  cursor: pointer;
+  outline: none;
+}
+.timer-controller-icon {
+  width: 36px;
+  height: 36px;
+  margin-right: 12px;
+}
+.timer-controller-label {
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+.timer-limit-controller-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.timer-limit-controller {
+  display: flex;
+  flex-direction: row;
+}
+.limit-label {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+.limit-controller-button {
+  color: #1e293b;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 500;
+  border: none;
+  margin: 8px;
+  cursor: pointer;
+  outline: none;
+}
+.limit-label-and-value-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8px;
+}
+.limit-value {
+  text-align: center;
+  color: #1e293b;
+  background-image: linear-gradient(to right, #00f5a0, #00d9f5);
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+  width: 100px;
+  border-radius: 8px;
+  margin: 0px;
+  padding: 8px;
+}
